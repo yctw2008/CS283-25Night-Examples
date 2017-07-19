@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon", "Pokemon\Pokemon.csproj", "{7E94842D-E46D-44CD-BFB8-383DD250E207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonLibrary", "..\..\Users\user02\Documents\Visual Studio 2017\Projects\PokemonLibrary\PokemonLibrary\PokemonLibrary.csproj", "{4BAAA5E0-7E5E-4643-AB4B-57BCD1FFDF20}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E94842D-E46D-44CD-BFB8-383DD250E207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E94842D-E46D-44CD-BFB8-383DD250E207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E94842D-E46D-44CD-BFB8-383DD250E207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E94842D-E46D-44CD-BFB8-383DD250E207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAAA5E0-7E5E-4643-AB4B-57BCD1FFDF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAAA5E0-7E5E-4643-AB4B-57BCD1FFDF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAAA5E0-7E5E-4643-AB4B-57BCD1FFDF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAAA5E0-7E5E-4643-AB4B-57BCD1FFDF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

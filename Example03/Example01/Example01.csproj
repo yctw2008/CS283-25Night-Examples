@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E94842D-E46D-44CD-BFB8-383DD250E207}</ProjectGuid>
+    <ProjectGuid>{72D5F017-65E4-4CA7-AA96-A6D3935FC32A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Pokemon</RootNamespace>
-    <AssemblyName>Pokemon</AssemblyName>
+    <RootNamespace>Example01</RootNamespace>
+    <AssemblyName>Example01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,18 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Users\user02\Documents\Visual Studio 2017\Projects\PokemonLibrary\PokemonLibrary\PokemonLibrary.csproj">
-      <Project>{4baaa5e0-7e5e-4643-ab4b-57bcd1ffdf20}</Project>
-      <Name>PokemonLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
