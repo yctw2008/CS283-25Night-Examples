@@ -11,8 +11,8 @@ namespace Pokemon
     {
         static void Main(string[] args)
         {
-            Pokemon aPokemon = new Pokemon()
-            {
+            Pokemon aPokemon = new Pokemon();
+            { 
                 Name = "妙蛙種子",
                 CurrentHp = "60",
                 Hp = "60"
@@ -27,23 +27,23 @@ namespace Pokemon
                 EvoCandy = "25",
                 SkillVine = "7",
                 SkillSludgeBomb = "80";
-              }; 
+            }; 
 
             Console.WriteLine( 
-            "Name:{1}
-            ,CurrentHp:{2}
-            ,Hp:{3}
-            ,Gender:{4}
-            ,Weight:{5}
-            ,Types:{6}
-            ,Height:{7}
-            ,UserStarDust:{8}
-            ,UserCandy:{9}
-            ,PowerUpStardust:{10}
-            ,PowerUpCandy:{11}
-            ,EvoCandy:{12}
-            ,SkillVine:{13}
-            ,SkillSludgeBomb:{14}"
+            "Name:{1}" +
+            ",CurrentHp:{2}" +
+            ",Hp:{3}" +
+            ",Gender:{4}" +
+            ",Weight:{5} +
+            ",Types:{6}" +
+            ",Height:{7}" +
+            ",UserStarDust:{8}" +
+            ",UserCandy:{9}" +
+            ",PowerUpStardust:{10}" +
+            ",PowerUpCandy:{11}" +
+            ",EvoCandy:{12}" +
+            ",SkillVine:{13}" +
+            ",SkillSludgeBomb:{14}" 
             ,aPokemon.Name
             ,aPokemon.CurrentHp
             ,aPokemon.Hp
@@ -58,7 +58,6 @@ namespace Pokemon
             ,aPokemon.EvoCandy
             ,aPokemon.SkillVine
             ,aPokemon.SkillSludgeBomb
-
             );
 
         }

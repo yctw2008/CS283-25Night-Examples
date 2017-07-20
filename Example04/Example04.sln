@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture02-Example04 (學習浮點植樹自運算)", "Example04\Lecture02-Example04 (學習浮點植樹自運算).csproj", "{74D8020C-3E65-44F7-A21E-136FE84BC66B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D8020C-3E65-44F7-A21E-136FE84BC66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D8020C-3E65-44F7-A21E-136FE84BC66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D8020C-3E65-44F7-A21E-136FE84BC66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D8020C-3E65-44F7-A21E-136FE84BC66B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
