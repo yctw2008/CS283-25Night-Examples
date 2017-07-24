@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Example03
 {
-    public class position
+    public class Position
     {
         public double X;
-        public double Y; 
+        public double Y;
     }
 }

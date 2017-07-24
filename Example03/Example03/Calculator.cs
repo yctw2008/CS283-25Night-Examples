@@ -24,10 +24,11 @@ namespace Example01
             return total;
         }
         public int Sum(int[]numbers)
+        { 
             int total = 0;
-            for (var count = 0; count < Number.Length; count++)
+            for (var count = 0; count < numbers.Length; count++)
             {
-                total += count;
+                total += numbers[count];
             }
             return total;
         }

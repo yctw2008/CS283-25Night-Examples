@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace Example03
 {
-    public class person
+    public class Person
     {
         public string Name;
-        public position Pos;
+        public Position Pos;
         public double Angle;
-        public void MoveForward (double d)
-        {
-            Pos.X = Pos.X + d * Math.Cos(Angle*Math.PI/180.0);
-            Pos.Y = Pos.Y + d * Math.Cos(Angle * Math.PI / 180.0);
-            WriteLine();
 
+        public void MoveForward(double d)
+        {
+            Pos.X = Pos.X + d * Math.Cos(Angle * Math.PI / 180.0);
+            Pos.Y = Pos.Y + d * Math.Sin(Angle * Math.PI / 180.0);
+            WriteLine();
         }
+
         public void TurnRight(double angle)
         {
             Angle = (Angle + angle) % 360.0;
@@ -26,20 +27,16 @@ namespace Example03
 
         public void WriteLine()
         {
-            Console.WriteLine("{0}的位置在({1},{2}),方位角:{3}度",Name,Pos.X, Pos.Y, Angle);
-            
+            Console.WriteLine("{0}的位置在({1}, {2}), 方位角:{3}度", Name, Pos.X, Pos.Y, Angle);
         }
+
         public void DrawSquare(double width)
         {
-          
-            Elsa.MoveForward(100);
-            Elsa.TurnRight(45);
-            Elsa.MoveForward(100);
-            Elsa.TurnRight(45);
-            Elsa.MoveForward(100);
-            Elsa.TurnRight(45);
-            Elsa.MoveForward(100);
-            Elsa.TurnRight(45);
+            for (int count = 0; count < 4; count++)
+            {
+                MoveForward(100);
+                TurnRight(90);
+            }
         }
     }
 }
